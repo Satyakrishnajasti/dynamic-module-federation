@@ -2,7 +2,12 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "dashboard": "apps/dashboard",
+    "dashboard-e2e": "apps/dashboard-e2e",
     "federation": "apps/federation",
-    "federation-e2e": "apps/federation-e2e"
+    "federation-e2e": "apps/federation-e2e",
+    "login": "apps/login",
+    "login-e2e": "apps/login-e2e",
+    "shared-data-access-user": "libs/shared/data-access-user"
   }
 }
