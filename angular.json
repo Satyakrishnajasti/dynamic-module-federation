@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "federation": "apps/federation",
+    "federation-e2e": "apps/federation-e2e"
+  }
+}
